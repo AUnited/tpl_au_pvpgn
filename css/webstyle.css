@@ -1,0 +1,446 @@
+body {
+    background-color: #000000;
+    background-image: url(mivabecom.jpg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    scrollbar-face-color: #181818;
+    scrollbar-highlight-color: #313328;
+    scrollbar-shadow-color: #313328;
+    scrollbar-3dlight-color: #76766C; 
+    scrollbar-arrow-color: #FFFFFF; 
+    scrollbar-track-color: #181818; 
+    scrollbar-darkshadow-color: #313328;
+}
+
+van1 { 
+    color: #FFFFFF; font-size: 10px;
+    background-color: #1A1A1A; 
+    border: 2px solid #313131; 
+    border-width: 1px 1px 1px 1px;
+
+}
+
+font,th,td,p { 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+a:link,a:active,a:visited,b { 
+    color : #D3D4AA; 
+    text-decoration:none;
+}
+
+a:hover	{ 
+    color : #FFFFFF; 
+    text-decoration:none;
+}
+
+hr { 
+    height: 0px; 
+    border: solid #D1D7DC 0px; 
+    border-top-width: 1px;
+}
+
+
+.bodyline { 
+    background-color: #1A1A1A; 
+}
+
+.forumline { 
+    background-color: #000000; 
+    border: 2px #313131 solid; 
+}
+
+td.row1	{ 
+    background-color: #1A1A1A; 
+    border: 2px solid #313131; 
+    border-width: 1px 1px 1px 1px;
+}
+
+td.row2	{ 
+    background-color: #262623; 
+    border: 2px solid #313131; 
+    border-width: 1px 1px 1px 1px;
+}
+
+td.row3	{ 
+    background-color: #1A1A1A; 
+    border: 2px solid #313131; 
+    border-width: 1px 1px 1px 1px;
+}
+
+td.rowpic {
+    background-color: #1A1A1A;
+    /* background-image: url(images/cellpic2.jpg); */
+    background-repeat: repeat-y;
+}
+
+th {
+    color: #FFFFFF; 
+    font-size: 10px;
+    background-color: #1A1A1A;
+    /* background-image: url(images/cellpic3.gif); */
+}
+
+td.cat,td.catHead,td.catSides,td.catLeft,td.catRight,td.catBottom {
+    /* background-image: url(images/cellpic1.gif); */
+    background-color: #1A1A1A; 
+    border: #000000; 
+    border-style: solid;
+}
+
+td.cat,td.catHead,td.catBottom {
+    border-width: 0px 0px 0px 0px;
+}
+
+th.thHead,th.thSides,th.thTop,th.thLeft,th.thRight,th.thBottom,th.thCornerL,th.thCornerR {
+    border: #000000; 
+    border-style: solid;
+}
+
+td.row3Right,td.spaceRow {
+    background-color: #1A1A1A; 
+    border: 2px solid #313131; 
+    border-width: 1px 1px 1px 1px;
+}
+
+th.thHead,td.catHead { 
+    font-size: 10px; 
+    border-width: 0px 0px 0px 0px; 
+}
+
+th.thSides,td.catSides,td.spaceRow	 { border-width: 0px 0px 0px 0px; }
+th.thRight,td.catRight,td.row3Right	 { border-width: 0px 0px 0px 0px; }
+th.thLeft,td.catLeft	  { border-width: 0px 0px 0px 0px; }
+th.thBottom,td.catBottom  { border-width: 0px 0px 0px 0px; }
+th.thTop	 { border-width: 0px 0px 0px 0px; }
+th.thCornerL { border-width: 0px 0px 0px 0px; }
+th.thCornerR { border-width: 0px 0px 0px 0px; }
+
+
+.maintitle,h1,h2 {
+    font-size: 10px; 
+    font-family: "Trebuchet MS",Verdana, Arial, Helvetica, sans-serif;
+    text-decoration: none; 
+    line-height : 120%; 
+    color : #FFFFFF;
+}
+
+
+.gen { font-size : 12px; }
+.genmed { font-size : 11px; }
+.gensmall { font-size : 10px; }
+.gen,.genmed,.gensmall { color : #FFFFFF; }
+a.gen,a.genmed,a.gensmall { color: #D3D4AA; text-decoration: none; }
+a.gen:hover,a.genmed:hover,a.gensmall:hover	{ color: #D3D4AA;  }
+
+
+/* The register, login, search etc links at the top of the page */
+.mainmenu		{ font-size : 11px; color : #FFFFFF }
+a.mainmenu		{ text-decoration: none; color : #D3D4AA;  }
+a.mainmenu:hover{  color : #FFFFFF; }
+
+
+/* Forum category titles */
+.cattitle		{ font-size: 12px ; letter-spacing: 1px; color : #D3D4AA}
+a.cattitle		{ text-decoration: none; color : #D3D4AA; }
+a.cattitle:hover{  }
+
+
+/* Forum title: Text and link to the forums used in: index.php */
+.forumlink		{ font-size: 12px; color : #D3D4AA; }
+a.forumlink 	{ text-decoration: none; color : #D3D4AA; }
+a.forumlink:hover{  color : #FFFFFF; }
+
+
+/* Used for the navigation text, (Page 1,2,3 etc) and the navigation bar when in a forum */
+.nav			{ font-size: 11px; color : #D3D4AA;}
+a.nav			{ text-decoration: none; color : #D3D4AA; }
+a.nav:hover		{  }
+
+
+/* titles for the topics: could specify viewed link colour too */
+.topictitle			{ font-size: 11px; color : #FFFFFF; }
+a.topictitle:link   { text-decoration: none; color : #D3D4AA; }
+a.topictitle:visited { text-decoration: none; color : #D3D4AA; }
+a.topictitle:hover	{  color : #FFFFFF; }
+
+
+/* Name of poster in viewmsg.php and viewtopic.php and other places */
+.name			{ font-size : 11px; color : #FFFFFF;}
+
+/* Location, number of posts, post date etc */
+.postdetails		{ font-size : 10px; color : #FFFFFF; }
+.bluepearl		{ font-size : 10px; color : #FFFFFF; border: 1px solid #000000; background-color: #1A1A1A; margin-bottom: 3px; width="100%"}
+
+
+/* The content of the posts (body of text) */
+.postbody { font-size : 12px;}
+a.postlink:link	{ text-decoration: none; color : #D3D4AA }
+a.postlink:visited { text-decoration: none; color : #D3D4AA; }
+a.postlink:hover {  color : #FFFFFF}
+
+
+/* Quote & Code blocks */
+.code {
+	font-family: Courier, 'Courier New', sans-serif; font-size: 11px; color: #FFFFFF;
+	background-color: #52513F; border: #000000; border-style: solid;
+	border-left-width: 1px; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px
+}
+
+.quote {
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #FFFFFF; line-height: 125%;
+	background-color: #52513F; border: #000000; border-style: solid;
+	border-left-width: 1px; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px
+}
+
+
+/* Copyright and bottom info */
+.copyright		{ font-size: 10px; font-family: Verdana, Arial, Helvetica, sans-serif; color: #444444; letter-spacing: -1px;}
+a.copyright		{ color: #444444; text-decoration: none;}
+a.copyright:hover { color: #FFFFFF; }
+
+
+/* Form elements */
+input,textarea, select {
+background-color: #1A1A1A;
+	color : #FFFFFF;
+	font: normal 11px Verdana, Arial, Helvetica, sans-serif;
+	border-color : #000000;
+}
+
+/* The text input fields background colour */
+input.post, textarea.post, select {
+background-color: #1A1A1A;
+}
+
+input { text-indent : 2px; }
+
+/* The buttons used for bbCode styling in message post */
+input.button {
+background-color: #1A1A1A;
+	color : #FFFFFF;
+	font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+/* The main submit button option */
+input.mainoption {
+border: #313131; border-style: solid; border-width: 1px 1px 1px 1px;
+background-color: #1A1A1A;
+}
+
+/* None-bold submit button */
+input.liteoption {
+border: #313131; border-style: solid; border-width: 1px 1px 1px 1px;
+background-color: #1A1A1A;
+	font-weight : normal;
+}
+
+/* This is the line in the posting page which shows the rollover
+  help line. This is actually a text box, but if set to be the same
+  colour as the background no one will know ;)
+*/
+.helpline { background-color: #1A1A1A; border-style: none; }
+
+#menu
+{
+    width: 100%;
+    margin: 0;
+    padding: 2px 0 0 0;
+    list-style: none;  
+    background: #000;
+    background: -moz-linear-gradient(#444, #000); 
+    background: -webkit-gradient(linear,left bottom,left top,color-stop(0, #000),color-stop(1, #444));
+    background: -webkit-linear-gradient(#444, #000);	
+    background: -o-linear-gradient(#444, #000);
+    background: -ms-linear-gradient(#444, #000);
+    background: linear-gradient(#444, #000);
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+#menu li
+{
+    float: left;
+    padding: 0 0 10px 0;
+    position: relative;
+    line-height: 0;
+}
+
+#menu a 
+{
+    float: left;
+    height: 25px;
+    padding: 0 25px;
+    color: #999;
+    text-transform: uppercase;
+    font: bold 12px/25px Arial, Helvetica;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #000;
+}
+
+#menu li:hover > a
+{
+    color: #fafafa;
+}
+
+*html #menu li a:hover /* IE6 */
+{
+    color: #fafafa;
+}
+
+#menu li:hover > ul
+{
+    display: block;
+}
+
+/* Sub-menu */
+
+#menu ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;    
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    z-index: 99999;    
+    background: #000;
+    background: -moz-linear-gradient(#222, #111);
+    background: -webkit-gradient(linear,left bottom,left top,color-stop(0, #111),color-stop(1, #222));
+    background: -webkit-linear-gradient(#222, #111);    
+    background: -o-linear-gradient(#222, #111);	
+    background: -ms-linear-gradient(#222, #111);	
+    background: linear-gradient(#222, #111);
+    -moz-box-shadow: 0 0 2px rgba(255,255,255,.5);
+    -webkit-box-shadow: 0 0 2px rgba(255,255,255,.5);
+    box-shadow: 0 0 2px rgba(255,255,255,.5);	
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#menu ul ul
+{
+  top: 0;
+  left: 150px;
+}
+
+#menu ul li
+{
+    float: none;
+    margin: 0;
+    padding: 0;
+    display: block;  
+    -moz-box-shadow: 0 1px 0 #111111, 0 2px 0 #777777;
+    -webkit-box-shadow: 0 1px 0 #111111, 0 2px 0 #777777;
+    box-shadow: 0 1px 0 #111111, 0 2px 0 #777777;
+}
+
+#menu ul li:last-child
+{   
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;    
+}
+
+#menu ul a
+{    
+    padding: 10px;
+    height: 10px;
+    width: 130px;
+    height: auto;
+    line-height: 1;
+    display: block;
+    white-space: nowrap;
+    float: none;
+    text-transform: none;
+}
+
+*html #menu ul a /* IE6 */
+{    
+    height: 10px;
+}
+
+*:first-child+html #menu ul a /* IE7 */
+{    
+    height: 10px;
+}
+
+#menu ul a:hover
+{
+    background: #0186ba;
+    background: -moz-linear-gradient(#04acec,  #0186ba);	
+    background: -webkit-gradient(linear, left top, left bottom, from(#04acec), to(#0186ba));
+    background: -webkit-linear-gradient(#04acec,  #0186ba);
+    background: -o-linear-gradient(#04acec,  #0186ba);
+    background: -ms-linear-gradient(#04acec,  #0186ba);
+    background: linear-gradient(#04acec,  #0186ba);
+}
+
+#menu ul li:first-child > a
+{
+    -moz-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+}
+
+#menu ul li:first-child > a:after
+{
+    content: '';
+    position: absolute;
+    left: 30px;
+    top: -8px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 8px solid #444;
+}
+
+#menu ul ul li:first-child a:after
+{
+    left: -8px;
+    top: 12px;
+    width: 0;
+    height: 0;
+    border-left: 0;	
+    border-bottom: 5px solid transparent;
+    border-top: 5px solid transparent;
+    border-right: 8px solid #444;
+}
+
+#menu ul li:first-child a:hover:after
+{
+    border-bottom-color: #04acec; 
+}
+
+#menu ul ul li:first-child a:hover:after
+{
+    border-right-color: #04acec; 
+    border-bottom-color: transparent; 	
+}
+
+#menu ul li:last-child > a
+{
+    -moz-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+}
+
+/* Clear floated elements */
+#menu:after 
+{
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+* html #menu             { zoom: 1; } /* IE6 */
+*:first-child+html #menu { zoom: 1; } /* IE7 */
+
+/* Import the fancy styles for IE only (NS4.x doesn't use the @import function) */
+@import url("formIE.css");
+
+
